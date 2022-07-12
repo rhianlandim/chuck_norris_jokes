@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(rgb(83, 24, 6), rgb(141, 60, 6));
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.wanted {
+    background: rgb(158, 147, 83);
+    border: 8px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px;
+    border: 8px solid rgb(0, 0, 0);
+    padding: 15px;
+    background: rgb(196, 182, 105);
+}
+
+.title h1 {
+    font-size: 75px;
+}
+
+.title h2 {
+    font-size: 50px;
+}
+
+.title img {
+    height: 378px;
+    width: 267px;
+    background: url("./assets/explosion.jpg");
+    border: 8px solid black;
+}
+
+.buttonArea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    padding: 20px;
+    background: rgb(196, 182, 105);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    font-weight: bolder;
+}
+
+.buttonArea img {
+    height: 30px;
+    width: 30px;
+    background: none;
+}
+
+.buttonArea button {
+    border: none;
+    background: none;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.buttonArea button:hover {
+    transform: scale(1.2);
+}
+
+.area {
+    font-size: 30px;
+    background: #ebda7e;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: rgb(235, 218, 126);
+    border-radius: 20px;
+}
